@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anra Tiendita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fcbf49;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .contacto {
+            background-color: #f77f00;
+            color: #fff;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .producto {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .producto h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #fcbf49;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        a.boton-whatsapp {
+            background-color: #25d366;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anra Tiendita</h1>
+        <p>Personalización de tazas, remeras, llaveros y mucho más</p>
+    </header>
+
+    <div class="container">
+        <section class="contacto">
+            <p>Dueñas: Nerina y Martina</p>
+            <p>Instagram: <a href="https://instagram.com/anra.tiendita" target="_blank" style="color: white; text-decoration: underline;">@anra.tiendita</a></p>
+            <p>¿Querés pedir presupuesto o hacer una consulta?</p>
+            <a class="boton-whatsapp" href="https://wa.me/2616303896" target="_blank">Escribinos por WhatsApp</a>
+        </section>
+
+        <section>
+            <h2>Productos</h2>
+            <div class="productos">
+                <div class="producto">
+                    <h3>Taza de cerámica</h3>
+                    <p>Precio: $2500</p>
+                    <p>Calidad: Alta, resistente al microondas y lavavajillas.</p>
+                </div>
+                <div class="producto">
+                    <h3>Remera personalizada</h3>
+                    <p>Precio: $4000</p>
+                    <p>Calidad: Algodón premium, impresión duradera.</p>
+                </div>
+                <div class="producto">
+                    <h3>Llavero</h3>
+                    <p>Precio: $800</p>
+                    <p>Calidad: Acrílico resistente, colores vivos.</p>
+                </div>
+                <!-- Puedes agregar más productos copiando este bloque y modificando el contenido -->
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Anra Tiendita - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
